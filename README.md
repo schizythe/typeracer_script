@@ -1,6 +1,6 @@
 # TYPE RACER SCRIPT
 
-(function() {
+<code>(function() {
     const targetDiv = document.querySelector('div.relative.leading-relaxed.select-none.overflow-hidden');
     const input = document.querySelector('input') || document.querySelector('textarea');
 
@@ -62,8 +62,8 @@
             delay += Math.floor(Math.random() * 70);
         }
 
-        setTimeout(typeNext, delay);
+        setTimeout(typeNext, delay); 
     }
 
     typeNext();
-})();
+})();</code>
